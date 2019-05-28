@@ -1,0 +1,53 @@
+/* Text */
+.mainText{
+  padding-top:20vh;
+  text-align: center;
+  font-family:'Reem Kufi', sans-serif;
+  font-size:80pt;
+  color:#332d2c;
+}
+.secondaryText{
+  /* position: fixed; */
+  /* bottom: 0%; */
+  /* right:50%; */
+  /* padding:30vh; */
+  text-align: center;
+  font-family:'Reem Kufi', sans-serif;
+  /* font-size:35pt */
+  color:#332d2c;
+}
+
+.contact{
+  /* position: fixed; */
+  /* bottom: 0%; */
+  /* right:50%; */
+  /* padding:30vh; */
+  text-align: center;
+  font-family: 'Niramit', sans-serif;
+  /* font-size:35pt */
+  color:#332d2c;
+}
+
+a:link {
+  color: inherit; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #414740;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #414740;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #414740;
+  background-color: transparent;
+  text-decoration: underline;
+}
