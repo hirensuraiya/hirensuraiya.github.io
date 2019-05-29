@@ -46,7 +46,7 @@ body{
   text-align: center;
   box-sizing:border-box;
   font-family:'Reem Kufi', sans-serif;
-  font-size:4vw;
+  font-size:4vmax;
   color:inherit;
   /* text-transform: uppercase; */
   letter-spacing: 0.5vw;
@@ -58,7 +58,7 @@ body{
 	box-sizing:border-box;
 	text-align: center;
 	font-family:'Reem Kufi', sans-serif;
-	font-size:1.6vw;
+	font-size:1.6vmax;
 	color:inherit;
 }
 
@@ -73,7 +73,7 @@ body{
   text-align: center;
   box-sizing:border-box;
   font-family: 'Niramit', sans-serif;
-  font-size:1.4vw;
+  font-size:1.4vmax;
   color:#inherit;
 }
 
