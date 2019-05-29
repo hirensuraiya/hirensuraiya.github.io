@@ -1,20 +1,65 @@
 /* Text */
+body{
+	color: #cfd1cf;/*332d2c; */ /*ccd2d3 ccd2d3*/
+	background-color: #332d2c; /* Used if the image is unavailable */
+}
+
+.bgBorder{
+	border: 2px solid rgba(255,255,255,.2);
+	position:fixed; left:1vmin;bottom:1vmin;top:1vmin;right:1vmin;
+	z-index:-1;
+}
+
+.bgImage{
+	background-image: url('graphics/picture_background.jpg');
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index:-3;
+}
+
+.bgTriangleGraphics{
+	background-image: url('graphics/graphic_background.png');
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	opacity: .02;
+	background-repeat: no-repeat;
+	z-index:-2;
+}
+
+
 .mainText{
-  padding-top:20vh;
+  padding-top:32vh;
+  padding-left:2vw;
+  padding-right:2vw;
+  padding-bottom:1vh;
   text-align: center;
+  box-sizing:border-box;
   font-family:'Reem Kufi', sans-serif;
-  font-size:80pt;
-  color:#332d2c;
+  font-size:4vw;
+  color:inherit;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.5vw;
 }
 .secondaryText{
-  /* position: fixed; */
-  /* bottom: 0%; */
-  /* right:50%; */
-  /* padding:30vh; */
-  text-align: center;
-  font-family:'Reem Kufi', sans-serif;
-  /* font-size:35pt */
-  color:#332d2c;
+	padding-top:1vh;
+	padding-left:2vw;
+	padding-right:2vw;
+	box-sizing:border-box;
+	text-align: center;
+	font-family:'Reem Kufi', sans-serif;
+	font-size:1.6vw;
+	color:inherit;
 }
 
 .contact{
@@ -22,32 +67,41 @@
   /* bottom: 0%; */
   /* right:50%; */
   /* padding:30vh; */
+  padding-top:7vh;
+  padding-left:2vw;
+  padding-right:2vw;
   text-align: center;
+  box-sizing:border-box;
   font-family: 'Niramit', sans-serif;
-  /* font-size:35pt */
-  color:#332d2c;
+  font-size:1.4vw;
+  color:#inherit;
 }
 
 a:link {
-  color: inherit; 
-  background-color: transparent; 
-  text-decoration: none;
+	color: inherit; 
+	background-color: transparent; 
+	text-decoration: none;
 }
 
 a:visited {
-  color: #414740;
-  background-color: transparent;
-  text-decoration: none;
+	color: inherit;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #414740;
-  background-color: transparent;
-  text-decoration: underline;
+	color: #414740;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 a:active {
-  color: #414740;
-  background-color: transparent;
-  text-decoration: underline;
+	color: #414740;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* Keep sections of text together */
+span.grouped {
+	display:inline-block;
 }
