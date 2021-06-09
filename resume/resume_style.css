@@ -1,0 +1,186 @@
+
+/* Structure --------------------------- */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.encapsulater  {
+	width: 65%;
+	margin: 10em auto 4em; /*top leftright bottom */
+	font-family: 'Hind Vadodara', sans-serif;
+	/* line-height: 1.4; */
+	/* font-size: 20px; */
+	color: #332d2c;
+	/* font-weight: 200; */
+}
+
+.encapsulater::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Contact List --------------------------- */
+
+.contact-list{
+	padding: 0;
+}
+
+.contact-item{
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	display: inline;
+	font-size: 1.5em;	
+	font-weight: bold;
+}
+.contact-item::after{
+	content: " |";
+}
+.contact-item:last-child::after {
+display: none;
+}
+
+/* Links --------------------------- */
+
+a{
+	color: #405840; 
+}
+
+
+/* Skills Lists --------------------------- */
+
+.skills>ul,.activities>ul{
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	display: inline;
+}
+
+.programming-skill-list, .software-skill-list,.honors-list,activities-list{
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	display: inline;
+}
+
+.skill-list{
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	display: inline;
+}
+
+.skill-list::after{
+	content: ",";
+}
+.skill-list:last-child::after {
+	display: none;
+}
+
+.list-title {
+	font-weight:600; /*bold */
+}
+
+/*  Duration --------------------------- */
+.duration {
+  font-weight:600; 
+}
+
+
+/*  Company--------------------------- */
+.experience-company{
+	margin-bottom:2.5em;
+}
+.experience-company:last-child{
+	margin-bottom:0em;
+	
+}
+
+/* Client --------------------------- */
+.Client,.degree {
+	font-weight:600; 
+	font-size:1.1em;
+}
+
+.summary {
+	margin-bottom:0.5em;
+	
+}
+
+.company, .institution,.name{
+	font-size: 2.25em;
+	font-weight: 500;
+	margin: .25em 0 .25em;
+	line-height: 1.1;
+	
+}
+
+/* Section --------------------------- */
+
+
+.section{
+	margin-bottom:3em;
+}
+
+.section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.section-meta {
+	border-top: 4px solid #332d2c;
+	width: 25%;
+	float: left;
+}
+
+.section-name {
+	margin-top:10px;
+	font-size:1.5em;
+	font-weight: 600;
+}
+
+.section-content {
+	width: 60%;
+	float: left;
+	margin-left: 15%;
+}
+
+.addl-skills, .skills {
+	margin-top:1em;	
+}
+
+
+
+
+@media all and (max-width: 700px) {
+	.encapsulater {
+		width: 80%;
+		font-size: 18px;
+	}
+	.section-meta {
+		border-top-width: 2px;
+		width: 100%;
+		float: none;
+		margin-bottom: 2em;
+	}
+	.section-content {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+}
+
+@media print {
+  a {
+    color: #111;
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+/* Stealth class is meant for having links but not showing them as links */
+
+
+
